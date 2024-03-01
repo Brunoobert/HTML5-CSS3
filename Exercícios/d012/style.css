@@ -16,6 +16,10 @@
     padding: 0px;
 }
 
+main{
+    background-color: whitesmoke;
+}
+
 header{
     background-color: black;
     color: white;
@@ -45,6 +49,7 @@ h2 > a{
 
 a:hover{
     text-decoration: underline;
+    color:white
 }
 
 .normal{
@@ -62,6 +67,7 @@ a:hover{
     font-size: 3vh;
     padding-top: 70px;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.253);
+    color: white;
 }
 
 
@@ -85,3 +91,17 @@ section.imagem > p{
     background-attachment: fixed;
     background-position: right center;
 }
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+footer > a{
+    color: white;
+    text-decoration: none;
+}
+
