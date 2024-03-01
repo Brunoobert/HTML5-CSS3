@@ -40,6 +40,7 @@ h2{
     font-size:1em;
     padding-bottom: 50px;
     background-color: black;
+    color: white;
 }
 
 h2 > a{
