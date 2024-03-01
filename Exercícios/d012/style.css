@@ -36,12 +36,13 @@ h1{
 
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:100;
-    font-size:1em;
-    padding-bottom: 50px;
-    background-color: black;
+    font-weight: 100;
+    font-size: 1em;
+    padding-bottom: 20px;
+    background-color: blue;
     color: white;
 }
+
 
 h2 > a{
     color: white;
