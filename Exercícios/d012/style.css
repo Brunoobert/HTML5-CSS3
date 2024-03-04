@@ -16,6 +16,11 @@
     padding: 0px;
 }
 
+html, body{
+    background-color: darkslategrey;
+    min-width: 100%;
+}
+
 main{
     background-color: whitesmoke;
 }
@@ -32,6 +37,7 @@ h1{
     padding-top: 30px;
     font-size: 10vh;
     padding-bottom: 10px;
+    font-variant: small-caps;
 }
 
 h2{
