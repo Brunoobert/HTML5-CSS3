@@ -1,0 +1,66 @@
+@media print{
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after{
+        content: 'Essa impressão foi feita!';
+        text-decoration: overline;
+        text-align: center;
+    }
+    body{
+        background-image: url(imagens/back-print.jpg);
+    }
+
+    img#Phone{ display: none;}
+    img#TV { display: none;}
+    img#Tablet { display: none;}
+    img#Print { display: block;}
+    img#PC { display: none;}
+}
+
+
+@media screen and (min-width:600px ) and (max-width:768px) {
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+    }
+    img#Phone{ display: none;}
+    img#TV { display: none;}
+    img#Tablet { display: block;}
+    img#Print { display: none;}
+    img#PC { display: none;}
+
+}
+
+
+@media screen and (min-width:769px ) and (max-width:1200px) {
+    body{
+        background-image: url(imagens/back-pc.jpg);
+    }
+
+    img#Phone{ display: none;}
+    img#TV { display: none;}
+    img#Tablet { display: none;}
+    img#Print { display: none;}
+    img#PC { display: block;}
+}
+
+
+@media screen and (min-width:1201px ) {
+    body{
+        background-image: url(imagens/back-tv.jpg);
+    }
+
+    img#Phone{ display: none;}
+    img#TV { display: block;}
+    img#Tablet { display: none;}
+    img#Print { display: none;}
+    img#PC { display: none;}
+}
