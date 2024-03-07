@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  :root{
+    --cor1:#73BF9C;
+    --cor2:#8C2B2B;
+    --cor3:#F26457;
+    --cor4:#F2AE2E;
+    --cor5:#73BF9C;
+
+    --cor6:#D96459;
+    --cor7:#5E92BF;
+    --cor8:#056CF2;
+    --cor9:#363F73;
+    --cor10:#1B2D44;
+    --cor11:#F2D9D8;
+
+    --fonte1:"Madimi One", sans-serif;
+
+}
+
+@media screen and (min-width:769px){
+    body{
+        background-image: linear-gradient(to left,var(--cor8), var(--cor9));
+        padding-top: 30px;
+    
+    }
+
+    section{
+        background-color:white;
+        background-image: url(Imagens/menino-g.jpg);
+        background-repeat: no-repeat;
+        background-position: -10% 40%;
+        background-size: auto;
+
+        font-family: var(--fonte1);
+        text-align: center;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.178);
+        text-indent: 60px;
+    
+        padding: 5px;
+        padding-top: 40px;
+        border-radius: 15px;
+        height: 400px;
+        width: 800px;
+        margin: auto;
+    
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.466);
+    
+    }
+    
+    section > h2{
+        font-size: larger;
+        text-align: center;
+    }
+    section > p{
+        font-size: larger;
+        padding-bottom: 40px;
+    }
+
+    section > picture > img{
+        position: absolute;
+        top:30%;
+        left: -5%;
+        display: none;
+
+    }
+    
+    div{
+        
+        padding: 20px;
+        
+    
+    }
+    
+    .caixa{
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+        border-color: transparent;
+        outline: 5px solid var(--cor9);
+        display: block;
+        margin: auto;
+    }
+    
+    .botao{
+        padding: 5px;
+        display: block;
+        margin: auto;
+        width: 400px;
+        border-color: transparent;
+        background-color: var(--cor7);
+        height: 40px;
+        border-radius: 5px;
+    
+    }
+    
+    .botao:hover{
+        background-color: var(--cor10);
+        color: white;
+    }
+}
